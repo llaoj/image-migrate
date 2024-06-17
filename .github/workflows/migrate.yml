@@ -13,5 +13,5 @@ jobs:
       - name: Migrate images
         run: |
           skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com
-          chmod +x migrate.sh
-          migrate.sh
+          chmod +x ./migrate.sh
+          ./migrate.sh

@@ -1,2 +1,2 @@
 gcr.io/kubebuilder/kube-rbac-proxy:v0.15.0
-docker.io/library/postgres:13
+quay.io/ansible/awx-operator:2.18.0

@@ -1,1 +1,2 @@
 gcr.io/kubebuilder/kube-rbac-proxy:v0.15.0
+docker.io/library/postgres:13

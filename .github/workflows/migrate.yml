@@ -9,7 +9,7 @@ jobs:
   migrate:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Migrate images
         run: |
           skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com

@@ -1,1 +1,4 @@
-docker.io/grafana/grafana:11.0.0
+k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.3.0
+k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.1
+docker.io/grafana/grafana:8.3.3
+docker.io/jimmidyson/configmap-reload:v0.5.0

@@ -1,2 +1,2 @@
-docker.io/llaoj/gcopy:v1.3.1
-docker.io/llaoj/gcopy-frontend:v1.3.1
+docker.io/llaoj/gcopy:v1.3.0
+docker.io/llaoj/gcopy-frontend:v1.3.0

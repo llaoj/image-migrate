@@ -1,2 +1,1 @@
-docker.io/llaoj/gcopy:v1.3.0
-docker.io/llaoj/gcopy-frontend:v1.3.0
+docker.io/fluent/fluentd-kubernetes-daemonset:v1.15.2-debian-elasticsearch7-1.0

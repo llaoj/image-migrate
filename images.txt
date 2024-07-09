@@ -1,1 +1,1 @@
-docker.io/fluent/fluentd-kubernetes-daemonset:v1.15.2-debian-elasticsearch7-1.0
+k8s.gcr.io/prometheus-adapter/prometheus-adapter:v0.9.1

@@ -1,1 +1,1 @@
-docker.io/bitnami/nginx-ingress-controller:0.48.1
+docker.io/prom/prometheus:latest

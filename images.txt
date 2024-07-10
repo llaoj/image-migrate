@@ -1,1 +1,1 @@
-docker.io/prom/prometheus:latest
+docker.io/prom/node-exporter:v1.1.2

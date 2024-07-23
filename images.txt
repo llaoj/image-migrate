@@ -1,1 +1,1 @@
-docker.io/library/nginx:1.27-alpine
+quay.io/skopeo/stable:latest

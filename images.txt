@@ -1,1 +1,1 @@
-quay.io/skopeo/stable:latest
+docker.io/sameersbn/bind:9.16.1-20200524

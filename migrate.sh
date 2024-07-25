@@ -6,5 +6,5 @@ cat images.txt | awk '{
   dst = $1;
   gsub(/^[^\/]+\//, "", dst);
   gsub("/", "_", dst);
-  print "skopeo copy docker://"$1" docker://registry.cn-beijing.aliyuncs.com/llaoj/"dst;
+  print docker run -t --rm -e REGISTRY_AUTH_FILE=/tmp/auth.json -v "$HOME"/.docker/config.json:/tmp/auth.json quay.io/skopeo/stable:latest copy docker://"$1" docker://registry.cn-beijing.aliyuncs.com/llaoj/"dst;
 }' | xargs -I {} sh -c "{}"

@@ -12,4 +12,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Migrate images
         run: |
-          docker run -u root -t --rm -v $(pwd)/migrate.sh:/tmp/migrate.sh -v $(pwd)/images.txt:/tmp/images.txt -v --entrypoint /bin/sh alpine:3.20 -c 'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && ls -lh /tmp && chmod 777 /tmp/migrate.sh && ls -lh /tmp  && /tmp/migrate.sh'
+          docker run -u root -t --rm -v $(pwd)/migrate.sh:/tmp/migrate.sh -v $(pwd)/images.txt:/tmp/images.txt --entrypoint /bin/sh alpine:3.20 -c 'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && ls -lh /tmp && chmod 777 /tmp/migrate.sh && ls -lh /tmp  && /tmp/migrate.sh'

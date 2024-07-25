@@ -1,1 +1,1 @@
-quay.io/skopeo/stable:latest
+docker.io/library/nginx:1.21.4

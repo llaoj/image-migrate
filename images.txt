@@ -1,1 +1,1 @@
-docker.io/sameersbn/bind:9.16.1-20200524
+docker.io/library/alpine:3.20

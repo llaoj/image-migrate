@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Migrate images
         run: |
-          chmod +x migrate.sh 
+          chmod 0755 migrate.sh 
           docker run -t --rm -v images.txt:/tmp/images.txt -v migrate.sh:/tmp/migrate.sh --entrypoint /bin/sh alpine:3.20 -c 'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && /tmp/migrate.sh'

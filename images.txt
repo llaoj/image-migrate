@@ -1,1 +1,1 @@
-docker.io/library/alpine:3.20
+quay.io/skopeo/stable:latest

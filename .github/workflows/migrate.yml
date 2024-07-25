@@ -14,4 +14,4 @@ jobs:
         run: |
           pwd
           ls -lh ${pwd}
-          docker run -u root -t --rm -v ${pwd}:/tmp -v --entrypoint /bin/sh alpine:3.20 -c 'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && ls -lh /tmp/migrate.sh && chmod 777 /tmp && ls -lh /tmp  && /tmp/migrate.sh'
+          docker run -u root -t --rm -v ${pwd}:/migrate -v --entrypoint /bin/sh alpine:3.20 -c 'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && ls -lh /migrate && chmod -R 777 /migrate && ls -lh /migrate  && /migrate/migrate.sh'

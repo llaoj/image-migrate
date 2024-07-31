@@ -1,1 +1,1 @@
-docker.io/fluent/fluentd-kubernetes-daemonset:v1.15.2-debian-elasticsearch7-1.0
+llaoj/gcopy-frontend:v1.4.0

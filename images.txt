@@ -1,1 +1,1 @@
-docker.io/busybox:stable
+docker.io/library/busybox:stable

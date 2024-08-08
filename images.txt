@@ -1,1 +1,1 @@
-docker.io/library/busybox:stable
+docker.io/osixia/keepalived:2.0.17

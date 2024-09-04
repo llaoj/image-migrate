@@ -1,4 +1,1 @@
-docker.io/llaoj/gcopy:v1.4.2
-docker.io/llaoj/gcopy:latest
-docker.io/llaoj/gcopy-frontend:v1.4.2
-docker.io/llaoj/gcopy-frontend:latest
+docker.io/library/redis:latest

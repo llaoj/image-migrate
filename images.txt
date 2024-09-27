@@ -1,1 +1,1 @@
-docker.io/library/redis:latest
+docker.io/fluent/fluentd-kubernetes-daemonset:v1.17.1-debian-elasticsearch7-1.0

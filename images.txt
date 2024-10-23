@@ -1,1 +1,1 @@
-docker.io/nginx/nginx-prometheus-exporter:1.3.0
+docker.io/timonwong/prometheus-webhook-dingtalk:v1.4.0

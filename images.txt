@@ -1,3 +1,1 @@
-k8s.gcr.io/kube-controller-manager:v1.22.17 kube-controller-manager:v1.22.17
-k8s.gcr.io/kube-apiserver:v1.22.17 kube-apiserver:v1.22.17
-k8s.gcr.io/kube-scheduler:v1.22.17 kube-scheduler:v1.22.17
+docker.io/calico/typha:v3.20.3

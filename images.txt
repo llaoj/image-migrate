@@ -1,2 +1,2 @@
-docker.io/apachepulsar/pulsar-all:4.0.0
-docker.io/apachepulsar/pulsar-manager:v0.3.0
+docker.io/apachepulsar/pulsar-all:3.0.3
+docker.io/apachepulsar/pulsar-manager:v0.4.0

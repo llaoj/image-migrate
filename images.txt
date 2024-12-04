@@ -1,1 +1,2 @@
-docker.io/library/node:18-alpine
+docker.io/llaoj/gcopy:v1.4.4
+docker.io/llaoj/gcopy-frontend:v1.4.4

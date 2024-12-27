@@ -21,7 +21,6 @@ docker.io/weaveworks/weave-kube:2.8.1
 docker.io/weaveworks/weave-npc:2.8.1
 docker.io/kubeovn/kube-ovn:v1.11.5
 docker.io/cloudnativelabs/kube-router:v2.0.0
-registry.k8s.io/library/pause:3.9
 ghcr.io/kube-vip/kube-vip:v0.8.0
 docker.io/library/nginx:1.25.2-alpine
 docker.io/library/haproxy:2.8.2-alpine
@@ -51,7 +50,8 @@ docker.io/kubernetesui/dashboard:v2.7.0
 docker.io/kubernetesui/metrics-scraper:v1.0.8
 quay.io/metallb/speaker:v0.13.9
 quay.io/metallb/controller:v0.13.9
-registry.k8s.io/library/kube-apiserver:v1.29.10
-registry.k8s.io/library/kube-controller-manager:v1.29.10
-registry.k8s.io/library/kube-scheduler:v1.29.10
-registry.k8s.io/library/kube-proxy:v1.29.10
+registry.k8s.io/kube-apiserver:v1.29.10 registry.cn-beijing.aliyuncs.com/llaoj/kube-apiserver:v1.29.10
+registry.k8s.io/kube-controller-manager:v1.29.10 registry.cn-beijing.aliyuncs.com/llaoj/kube-controller-manager:v1.29.10
+registry.k8s.io/kube-scheduler:v1.29.10 registry.cn-beijing.aliyuncs.com/llaoj/kube-scheduler:v1.29.10
+registry.k8s.io/kube-proxy:v1.29.10 registry.cn-beijing.aliyuncs.com/llaoj/kube-proxy:v1.29.10
+registry.k8s.io/pause:3.9 registry.cn-beijing.aliyuncs.com/llaoj/pause:3.9

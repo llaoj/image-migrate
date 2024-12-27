@@ -13,8 +13,9 @@ jobs:
       - name: Migrate images
         run: |
           docker run -u root -t --rm \
-            -v $(pwd)/migrate.sh:/tmp/migrate.sh \
+            -v $(pwd)/migrate-images.sh:/tmp/migrate-images.sh \
             -v $(pwd)/images.txt:/tmp/images.txt \
             --entrypoint /bin/sh \
             alpine:3.20 -c \
-              'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && chmod 777 /tmp/migrate.sh && /tmp/migrate.sh'
+              'apk update && apk add skopeo && skopeo -v && skopeo login -u "${{ secrets.ALI_REGISTRY_USERNAME }}" -p "${{ secrets.ALI_REGISTRY_PASSWORD }}" registry.cn-beijing.aliyuncs.com && chmod 777 /tmp/migrate-images.sh && /tmp/migrate-images.sh'
+          bash ./migrate-files.sh "${{ secrets.OSS_ACCESS_KEY_ID }}" "${{ secrets.OSS_ACCESS_KEY }}"

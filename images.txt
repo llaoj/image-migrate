@@ -1,1 +1,1 @@
-registry.k8s.io/pause:3.9 pause:3.9
+docker.io/istio/pilot:1.22.1

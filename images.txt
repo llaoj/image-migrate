@@ -1,1 +1,1 @@
-docker.io/istio/pilot:1.22.1
+docker.io/library/busybox:latest

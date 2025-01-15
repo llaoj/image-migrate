@@ -1,1 +1,4 @@
-registry.k8s.io/dns/k8s-dns-node-cache:1.22.28
+docker.io/istio/ztunnel:1.24.2 ztunnel:1.24.2
+docker.io/istio/pilot:1.24.2 pilot:1.24.2
+docker.io/istio/proxyv2:1.24.2 proxyv2:1.24.2
+docker.io/istio/install-cni:1.24.2 install-cni:1.24.2

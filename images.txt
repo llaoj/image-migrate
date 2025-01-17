@@ -1,4 +1,1 @@
-docker.io/istio/ztunnel:1.24.2 ztunnel:1.24.2
-docker.io/istio/pilot:1.24.2 pilot:1.24.2
-docker.io/istio/proxyv2:1.24.2 proxyv2:1.24.2
-docker.io/istio/install-cni:1.24.2 install-cni:1.24.2
+docker.io/rancher/local-path-provisioner:v0.0.30

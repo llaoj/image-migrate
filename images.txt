@@ -1,1 +1,4 @@
-docker.io/fullstorydev/grpcurl:latest
+docker.io/velero/velero:v1.10.3
+docker.io/velero/velero-plugin-for-aws:v1.3.0
+docker.io/llaoj/gcopy:v1.4.7
+docker.io/llaoj/gcopy-frontend:v1.4.7

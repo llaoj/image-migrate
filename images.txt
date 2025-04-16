@@ -1,1 +1,1 @@
-docker.io/litmuschaos/fio:latest
+ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot

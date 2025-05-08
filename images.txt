@@ -1,1 +1,2 @@
-ghcr.io/k8snetworkplumbingwg/multus-cni:snapshot
+docker.io/velero/velero:v1.11.1
+docker.io/velero/velero-plugin-for-aws:v1.7.1

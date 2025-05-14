@@ -1,2 +1,2 @@
-docker.io/velero/velero:v1.11.1
-docker.io/velero/velero-plugin-for-aws:v1.7.1
+docker.io/llaoj/gcopy:v1.4.8
+docker.io/llaoj/gcopy-frontend:v1.4.8

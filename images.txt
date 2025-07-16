@@ -1,6 +1,7 @@
-quay.io/cilium/certgen:v0.1.8
-quay.io/cilium/cilium:v1.15.9
-quay.io/cilium/hubble-relay:v1.15.9
-quay.io/cilium/hubble-ui-backend:v0.11.0
-quay.io/cilium/hubble-ui:v0.11.0
-quay.io/cilium/operator:v1.15.9
+docker.io/envoyproxy/envoy:v1.22.5
+docker.io/kubernetesui/dashboard:v2.7.0
+docker.io/kubernetesui/metrics-scraper:v1.0.8
+docker.io/library/haproxy:2.8.2-alpine
+docker.io/library/nginx:1.25.2-alpine
+docker.io/library/registry:2.8.1
+docker.io/rancher/local-path-provisioner:v0.0.24

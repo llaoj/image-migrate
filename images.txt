@@ -1,1 +1,2 @@
-ghcr.io/kube-vip/kube-vip:v0.8.0
+quay.io/cilium/starwars
+quay.io/cilium/json-mock:v1.3.8

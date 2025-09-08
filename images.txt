@@ -1,2 +1,2 @@
-quay.io/cilium/starwars
-quay.io/cilium/json-mock:v1.3.8
+docker.io/library/golang:1.20
+docker.io/library/ubuntu:24.04

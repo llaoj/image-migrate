@@ -1,2 +1,1 @@
-docker.io/library/golang:1.20
-docker.io/library/ubuntu:24.04
+docker.io/library/php:8.1-fpm-alpine

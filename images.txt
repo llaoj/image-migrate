@@ -1,1 +1,1 @@
-docker.io/library/node:22-alpine
+docker.io/library/mysql:8.0.29

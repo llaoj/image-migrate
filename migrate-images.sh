@@ -3,7 +3,7 @@
 set -x
 
 if [ -s /tmp/images.txt ]; then
-  tail /tmp/images.txt | awk '{ 
+  cat /tmp/images.txt | awk '{ 
   if(NF==2){
     dst = $2;
   }else{
@@ -12,5 +12,5 @@ if [ -s /tmp/images.txt ]; then
     gsub("/", "_", dst);
   }
   print "skopeo copy --multi-arch all docker://"$1" docker://registry.cn-beijing.aliyuncs.com/llaoj/"dst;
-}' | xargs -I {} sh -c "{}"
+}' | xargs -P 5 -I {} sh -c "{}"
 fi

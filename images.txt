@@ -1,1 +1,1 @@
-docker.io/itsthenetwork/nfs-server-alpine:11
+docker.io/provectuslabs/kafka-ui:latest

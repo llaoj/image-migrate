@@ -1,1 +1,2 @@
-docker.io/library/golang:1.24.0
+docker.io/hashicorp/consul-k8s-control-plane:1.9.5
+docker.io/hashicorp/consul:1.22.5

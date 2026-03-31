@@ -1,2 +1,1 @@
-docker.io/library/golang:1.21-alpine
-docker.io/library/alpine:latest
+docker.io/library/python:3.13-slim

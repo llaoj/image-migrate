@@ -1,1 +1,1 @@
-docker.io/library/python:3.13-slim
+docker.io/astral/uv:python3.13-trixie

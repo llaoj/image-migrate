@@ -1,1 +1,1 @@
-docker.io/astral/uv:python3.13-trixie
+docker.io/library/node:14.17.2

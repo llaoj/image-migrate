@@ -1,1 +1,1 @@
-registry.k8s.io/pause:3.5 pause:3.5 
+registry.k8s.io/coredns/coredns:v1.8.0 coredns:v1.8.0

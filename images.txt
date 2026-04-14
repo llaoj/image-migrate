@@ -1,1 +1,1 @@
-docker.io/library/node:14.17.2
+registry.k8s.io/pause:3.5 pause:3.5 

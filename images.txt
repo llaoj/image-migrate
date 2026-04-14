@@ -1,1 +1,1 @@
-registry.k8s.io/coredns/coredns:v1.8.0 coredns:v1.8.0
+ghcr.io/kyverno/kyverno:v1.7.5

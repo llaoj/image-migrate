@@ -1,1 +1,2 @@
-registry.k8s.io/pause:3.8 pause:3.8
+registry.k8s.io/sig-storage/livenessprobe:v2.5.0
+registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.3.0

@@ -1,1 +1,1 @@
-quay.io/kata-containers/kubectl:latest
+registry.k8s.io/pause:3.6 pause:3.6

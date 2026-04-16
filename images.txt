@@ -1,1 +1,1 @@
-quay.io/kata-containers/kata-deploy:3.28.0
+quay.io/kata-containers/kubectl:latest

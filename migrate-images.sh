@@ -2,7 +2,7 @@
 
 set -x
 
-if [ -s /tmp/images.txt ]; then
+if grep -qv '^[[:space:]]*$' /tmp/images.txt 2>/dev/null; then
   cat /tmp/images.txt | awk '{ 
   if(NF==2){
     dst = $2;

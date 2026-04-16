@@ -1,0 +1,2 @@
+https://github.com/kata-containers/kata-containers/releases/download/3.7.0/kata-static-3.7.0-amd64.tar.xz
+https://github.com/kata-containers/kata-containers/releases/download/3.7.0/kata-static-3.7.0-arm64.tar.xz

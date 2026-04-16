@@ -3,7 +3,7 @@
 set -x
 
 # "Download files and upload to OSS"
-if [ -s ./files.txt ]; then
+if grep -qv '^[[:space:]]*$' /tmp/files.txt 2>/dev/null; then
   wget -qx -P /tmp/files -i ./files.txt
   tree /tmp/files
   wget -q https://gosspublic.alicdn.com/ossutil/1.7.13/ossutil64 && chmod 755 ossutil64

@@ -1,1 +1,1 @@
-docker.io/library/docker:dind
+docker.io/moby/buildkit:buildx-stable-1

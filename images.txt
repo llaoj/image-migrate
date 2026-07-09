@@ -1,1 +1,1 @@
-docker.io/library/docker:dnd
+docker.io/library/docker:dind

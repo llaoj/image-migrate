@@ -1,1 +1,1 @@
-docker.io/library/docker:latest
+docker.io/library/docker:dnd

@@ -1,1 +1,1 @@
-docker.m.daocloud.io/moby/buildkit:buildx-stable-1
+docker.io/alibaba/umodel:latest

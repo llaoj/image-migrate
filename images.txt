@@ -1,1 +1,1 @@
-docker.io/alibaba/umodel:latest
+docker.io/juicedata/juicefs-csi-driver:v0.17.1
